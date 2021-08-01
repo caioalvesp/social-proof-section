@@ -1,4 +1,4 @@
-# Frontend Mentor - Social proof section
+<!-- # Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
@@ -88,4 +88,6 @@ We love receiving feedback! We're always looking to improve our challenges and o
 
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+**Have fun building!** 🚀 -->
+
+Work in progress
