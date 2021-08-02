@@ -1,5 +1,16 @@
+:root {
+  /* Cores */
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
 * {
   box-sizing: border-box;
+  font-size: 0.938rem;
+  font-family: "Spartan", sans-serif;
 }
 
 html,
@@ -7,6 +18,7 @@ body,
 div,
 h1,
 h2,
+h3,
 a,
 ul {
   margin: 0;
@@ -14,8 +26,92 @@ ul {
   border: 0;
 }
 
+a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
 ul {
   list-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem 2rem 1rem;
+  color: var(--very-dark-magenta);
+}
+
+.review {
+  background-color: var(--light-grayish-magenta);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 1.5rem;
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.review ul {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.review p {
+  color: var(--very-dark-magenta);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.description {
+  text-align: center;
+  padding: 0 1.7rem 0 1.7rem;
+  color: var(--dark-grayish-magenta);
+  font-weight: 500;
+}
+
+.quote {
+  background-color: var(--very-dark-magenta);
+  color: var(--white);
+  padding: 2rem;
+  margin: 0 2rem 1rem;
+  border-radius: .5rem;
+}
+
+.quote .quote--header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.quote img {
+  grid-area: foto;
+  border-radius: 50%;
+  height: 3rem;
+}
+
+.quote h2 {
+  font-size: 0.9rem;
+  color: var(--white);
+  margin-bottom: .3rem;
+}
+
+.quote h3 {
+  font-size: 0.9rem;
+  color: var(--soft-pink);
+  font-weight: 400;
+}
+
+.quote h2, .quote h3 {
+  margin-left: 1.5rem;
+}
+
+.quote p {
+  font-size: 0.81rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: var(--white);
+  margin-top: 2rem;
 }
 
 .attribution {
@@ -24,4 +120,5 @@ ul {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  font-size: 11px;
 }
